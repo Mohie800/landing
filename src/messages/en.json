@@ -1,0 +1,504 @@
+{
+  "metadata": {
+    "title": "Sell on Qafila - Start Selling Online Today",
+    "description": "Join a growing marketplace designed to help your brand reach more customers, boost sales, and grow with confidence."
+  },
+  "header": {
+    "gettingStarted": "Getting Started",
+    "howToSell": "How to Sell",
+    "aboutUs": "About Us",
+    "priceAccess": "Price & Access",
+    "language": "العربية",
+    "forBusinessSeller": "For Business Seller",
+    "forGovernmentSupplier": "For Government Supplier",
+    "forStartup": "For Startup"
+  },
+  "hero": {
+    "title": "Sell on Qafila : Start",
+    "titleHighlight": "selling online",
+    "titleEnd": "Today !",
+    "description": "Join a growing marketplace designed to help your brand reach more customers, boost sales, and grow with confidence.",
+    "registerNow": "Register Now",
+    "login": "Login"
+  },
+  "howWeWork": {
+    "label": "How We Work",
+    "titleStart": "From",
+    "titleHighlight": "Registration",
+    "titleEnd": "to Real Sales",
+    "learnMore": "Learn More →",
+    "steps": {
+      "0": {
+        "title": "Step 1: Apply as a Seller",
+        "description": "Submit your business details and required documents to start your seller application on Qafila."
+      },
+      "1": {
+        "title": "Step 2: Add Your Products",
+        "description": "Upload product details, pricing, and images using our easy-to-use seller dashboard."
+      },
+      "2": {
+        "title": "Step 3: Get Approved & Go Live",
+        "description": "Once reviewed and approved, your products become visible to buyers across the platform."
+      },
+      "3": {
+        "title": "Step 4: Track Your Earnings",
+        "description": "Monitor your sales, payouts, and performance insights in real time through your seller dashboard."
+      }
+    }
+  },
+  "whyQafila": {
+    "label": "Why Qafila",
+    "titleStart": "Built to Support",
+    "titleHighlight": "Saudi Sellers",
+    "businessTab": "Business (B→B)",
+    "governmentTab": "Government (B→G)",
+    "b2bFeatures": {
+      "0": {
+        "title": "Saudi-Made Priority",
+        "description": "Qafila is built to support locally manufactured products. Saudi-made brands receive higher visibility, stronger trust, and better positioning across the marketplace."
+      },
+      "1": {
+        "title": "Access a Growing Market",
+        "description": "Sell directly to consumers and businesses across Saudi Arabia through a single, unified platform designed for scale and growth."
+      },
+      "2": {
+        "title": "All-in-One Seller Dashboard",
+        "description": "Manage products, pricing, orders, payments, and performance insights from one powerful dashboard — no technical complexity required."
+      },
+      "3": {
+        "title": "Built-in Marketing Tools",
+        "description": "We help your products get discovered through platform campaigns, featured placements, and data-driven exposure opportunities."
+      }
+    },
+    "b2gFeatures": {
+      "0": {
+        "title": "Government Compliance Ready",
+        "description": "Meet government procurement requirements with built-in compliance tools, documentation workflows, and transparent processes."
+      },
+      "1": {
+        "title": "Institutional Partnerships",
+        "description": "Connect with government agencies and public sector organizations looking for Saudi-made products and services."
+      },
+      "2": {
+        "title": "Contract Management",
+        "description": "Manage bulk orders, contracts, and recurring procurement with dedicated tools designed for government workflows."
+      },
+      "3": {
+        "title": "Visibility to Decision Makers",
+        "description": "Get your products in front of procurement officers and decision-makers across government entities in Saudi Arabia."
+      }
+    }
+  },
+  "whoWeServe": {
+    "label": "Who We Serve",
+    "titleStart": "Empowering",
+    "titleHighlight1": "Businesses and",
+    "titleHighlight2": "Government",
+    "titleEnd": "Partners",
+    "business": {
+      "title": "Built for Business Growth",
+      "description": "A powerful B2B ecosystem that connects suppliers, distributors, and sellers with seamless tools for growth and efficiency.",
+      "features": {
+        "0": "Supporting suppliers, wholesalers, and growing businesses.",
+        "1": "Built for sellers, suppliers, and distributors.",
+        "2": "Designed for businesses that want to scale."
+      },
+      "learnMore": "Learn more →"
+    },
+    "government": {
+      "title": "Built for Government Procurement",
+      "description": "Qafila enables Saudi suppliers to sell to government entities through structured workflows that support compliance, transparency, and scalability.",
+      "features": {
+        "0": "Local content aligned",
+        "1": "Bulk and contract-based selling",
+        "2": "Secure and documented processes"
+      },
+      "learnMore": "Learn more →"
+    }
+  },
+  "vision": {
+    "label": "Our Vision",
+    "titleStart": "A",
+    "titleHighlight": "Marketplace",
+    "titleEnd": "Built for Saudi Growth",
+    "videoCaption": "a group of visionary entrepreneurs and innovators",
+    "videoPlaceholder": "Vision Video Placeholder",
+    "bullets": {
+      "0": "Discover the vision behind Qafila and how we support Saudi sellers by connecting local products with real market demand.",
+      "1": "Qafila is more than a marketplace — it's a platform designed to empower Saudi sellers and grow local commerce."
+    }
+  },
+  "platformTour": {
+    "label": "Platform Tour",
+    "titleStart": "See How",
+    "titleHighlight": "Qafila",
+    "titleEnd": "Works",
+    "videoPlaceholder": "Platform Tour Video Placeholder",
+    "bullets": {
+      "0": "This video gives you a clear look at the Qafila app experience — from product discovery to checkout — and how the platform operates behind the scenes.",
+      "1": "An overview of the Qafila app experience and how products move from listing to purchase."
+    },
+    "downloadOn": "Download on the",
+    "appStore": "App Store",
+    "getItOn": "GET IT ON",
+    "googlePlay": "Google Play"
+  },
+  "pricing": {
+    "label": "Packages",
+    "titleHighlight": "Expert-verified",
+    "titleEnd": "market & consumer data to support every decision",
+    "businessTab": "Business (B→B)",
+    "governmentTab": "Government (B→G)",
+    "mostPopular": "Most Popular",
+    "planDescription": "Experience premium benefits, exclusive rewards, and personalized features.",
+    "subscriptionNote": "Everything in annual subscription:",
+    "compareAll": "Compare All-in-One Package →",
+    "plans": {
+      "0": {
+        "name": "Basic",
+        "price": "0.0",
+        "cta": "Start for free"
+      },
+      "1": {
+        "name": "Starter",
+        "price": "250.0",
+        "originalPrice": "420.0",
+        "discount": "-40%",
+        "cta": "Select Plan"
+      },
+      "2": {
+        "name": "Premium",
+        "price": "250.0",
+        "originalPrice": "420.0",
+        "discount": "-40%",
+        "cta": "Select Plan"
+      },
+      "3": {
+        "name": "Qafila Statista",
+        "price": "250.0",
+        "originalPrice": "420.0",
+        "discount": "-40%",
+        "cta": "Select Plan"
+      }
+    },
+    "features": {
+      "0": "Full access to all app themes",
+      "1": "Higher-value promo codes & gifts",
+      "2": "Priority access to new drops & sales",
+      "3": "Dedicated premium customer support",
+      "4": "Exclusive Saudi brand collaborations"
+    },
+    "planFeatures": {
+      "0": [0, 1],
+      "1": [0, 1, 2, 3, 4],
+      "2": [0, 1, 2, 3],
+      "3": [0, 1, 2, 3, 4]
+    }
+  },
+  "partners": {
+    "label": "Supported Partners",
+    "titleStart": "For",
+    "titleHighlight1": "Creators",
+    "titleHighlight2": "Designers",
+    "titleEnd": "Early Projects",
+    "categories": {
+      "0": {
+        "title": "- Designers",
+        "description": "Have product designs or concepts? We help you connect with sellers to produce, launch, and sell your designs."
+      },
+      "1": {
+        "title": "- Startups",
+        "description": "Early-stage projects or new ideas? We match you with sellers who can support, adopt, or scale your project."
+      },
+      "2": {
+        "title": "- Product Owners",
+        "description": "From concepts to ready products. Find the right seller to bring your idea to the market."
+      }
+    },
+    "form": {
+      "designerName": "Designer Name",
+      "emailAddress": "Email Address",
+      "phoneNumber": "Phone Number",
+      "city": "City",
+      "brandName": "Brand Name",
+      "category": "Category",
+      "brandStory": "Brand Story",
+      "required": "*",
+      "enterName": "Enter your name",
+      "enterEmail": "Enter your email",
+      "phonePlaceholder": "5XX XXX XXX",
+      "selectCity": "Select your city",
+      "brandNamePlaceholder": "Brand name",
+      "selectCategory": "Select a category",
+      "brandStoryPlaceholder": "Tell us about your brand ....",
+      "submit": "Submit",
+      "cities": {
+        "riyadh": "Riyadh",
+        "jeddah": "Jeddah",
+        "dammam": "Dammam",
+        "mecca": "Mecca",
+        "medina": "Medina"
+      },
+      "categories": {
+        "fashion": "Fashion",
+        "food": "Food",
+        "electronics": "Electronics",
+        "homeGarden": "Home & Garden"
+      }
+    }
+  },
+  "faq": {
+    "label": "FAQ's",
+    "title": "Question?",
+    "titleHighlight": "Look Here.",
+    "questions": {
+      "0": {
+        "question": "1- Who can sell on Qafila?",
+        "answer": "Manufacturers, local brands, registered businesses, and suppliers offering Saudi-made or approved products can apply to sell on Qafila."
+      },
+      "1": {
+        "question": "2- Do I need a Saudi commercial registration?",
+        "answer": "Yes, a valid Saudi commercial registration (CR) is required to sell on Qafila. This ensures compliance with local regulations and builds trust with buyers."
+      },
+      "2": {
+        "question": "3- What types of products are allowed?",
+        "answer": "Qafila supports a wide range of product categories including fashion, electronics, home goods, food products, and more. All products must comply with Saudi regulations."
+      },
+      "3": {
+        "question": "4- How does selling to government entities work?",
+        "answer": "Through our B2G program, approved sellers can participate in government procurement processes with dedicated compliance tools and documentation support."
+      },
+      "4": {
+        "question": "5- What are the fees or commissions?",
+        "answer": "Qafila operates on a transparent commission-based model. Fees vary by plan and category. Check our pricing section for detailed information."
+      },
+      "5": {
+        "question": "7- Who handles shipping and delivery?",
+        "answer": "Sellers can choose from integrated shipping partners or manage their own logistics. Qafila provides tools to manage orders and track deliveries seamlessly."
+      }
+    },
+    "contact": {
+      "title": "You have different questions?",
+      "description": "Our team will answer all your questions. We ensure a quick response",
+      "button": "Contact Us"
+    },
+    "phone": {
+      "comfort": "Your Comfort , Our priority",
+      "number": "(+966) 567-876",
+      "service": "24/7 Service"
+    }
+  },
+  "cta": {
+    "label": "Who We Serve",
+    "title": "Ready to Sell?",
+    "description": "Everything you need to sell, scale, and succeed — all in one platform.",
+    "registerNow": "Register Now →"
+  },
+  "register": {
+    "pageTitle": "Vendor Registration",
+    "steps": {
+      "personalData": "Personal Data",
+      "storeSetup": "Store Setup",
+      "financialData": "Financial Data",
+      "policyAgreement": "Policy Agreement"
+    },
+    "step1": {
+      "title": "Start Your Journey",
+      "subtitle": "Fill in your personal information to create your vendor account.",
+      "designerName": "Designer Name",
+      "designerNamePlaceholder": "Enter your full name",
+      "email": "Email Address",
+      "emailPlaceholder": "Enter your email",
+      "phone": "Phone Number",
+      "phonePlaceholder": "5XX XXX XXX",
+      "city": "City",
+      "selectCity": "Select your city",
+      "cities": {
+        "riyadh": "Riyadh",
+        "jeddah": "Jeddah",
+        "dammam": "Dammam",
+        "mecca": "Mecca",
+        "medina": "Medina",
+        "khobar": "Khobar",
+        "tabuk": "Tabuk",
+        "abha": "Abha",
+        "taif": "Taif",
+        "buraidah": "Buraidah"
+      }
+    },
+    "otp": {
+      "title": "Verify Your Phone",
+      "subtitle": "We sent a verification code to",
+      "enterCode": "Enter the 6-digit code",
+      "verify": "Verify",
+      "resend": "Resend Code",
+      "resendIn": "Resend in",
+      "seconds": "s",
+      "didntReceive": "Didn't receive the code?"
+    },
+    "step2": {
+      "title": "Set Up Your Store",
+      "subtitle": "Tell us about your brand so we can create the perfect storefront.",
+      "brandName": "Brand Name",
+      "brandNamePlaceholder": "Enter your brand name",
+      "category": "Category",
+      "selectCategory": "Select a category",
+      "categories": {
+        "fashion": "Fashion & Apparel",
+        "jewelry": "Jewelry & Accessories",
+        "beauty": "Beauty & Skincare",
+        "home": "Home & Living",
+        "food": "Food & Beverages",
+        "art": "Art & Crafts",
+        "electronics": "Electronics",
+        "other": "Other"
+      },
+      "storeLink": "Store Link",
+      "storeLinkPlaceholder": "https://your-store.com (optional)",
+      "brandStory": "Brand Story",
+      "brandStoryPlaceholder": "Tell us about your brand, your inspiration, and what makes your products unique (minimum 50 characters)...",
+      "logo": "High-Resolution Logo",
+      "logoHint": "Upload your brand logo (PNG, JPG, SVG — max 5MB)"
+    },
+    "step3": {
+      "title": "Financial Information",
+      "subtitle": "Upload the required financial documents to complete your registration.",
+      "bankDetails": "Bank Account Details",
+      "bankDetailsHint": "Upload a PDF with your bank account information (IBAN, bank name, account holder)",
+      "commercialRegister": "Commercial Register / Freelance Document",
+      "commercialRegisterHint": "Upload your commercial registration or freelance certificate (PDF)",
+      "taxCertificate": "Tax Certificate",
+      "taxCertificateHint": "Upload your tax certificate if available (PDF, optional)",
+      "optional": "Optional"
+    },
+    "step4": {
+      "title": "Policy Agreement",
+      "subtitle": "Please review and agree to the following policies before submitting your application.",
+      "policies": {
+        "productImage": "Product Image Policy",
+        "returnRefund": "Return, Refund, and Cancellation Policy",
+        "privacy": "Privacy and Confidentiality Policy",
+        "termsOfUse": "Terms of Use Policy",
+        "commission": "Commission and Shipping Policy"
+      },
+      "readPolicy": "Read Policy",
+      "agreeToPolicy": "I have read and agree to the"
+    },
+    "required": "*",
+    "continue": "Continue",
+    "back": "Back",
+    "submit": "Submit Application",
+    "submitting": "Submitting...",
+    "successTitle": "Application Submitted!",
+    "successMessage": "Thank you for registering. We'll review your application and get back to you within 2-3 business days.",
+    "backToHome": "Back to Home",
+    "dragDrop": "Drag & drop your file here, or",
+    "browse": "browse",
+    "fileSelected": "File selected",
+    "removeFile": "Remove",
+    "maxSize": "Max file size:",
+    "validation": {
+      "nameRequired": "Name is required",
+      "emailRequired": "Email is required",
+      "emailInvalid": "Please enter a valid email address",
+      "phoneRequired": "Phone number is required",
+      "phoneInvalid": "Please enter a valid Saudi phone number",
+      "cityRequired": "Please select a city",
+      "brandNameRequired": "Brand name is required",
+      "categoryRequired": "Please select a category",
+      "brandStoryRequired": "Brand story is required",
+      "brandStoryMin": "Brand story must be at least 50 characters",
+      "logoRequired": "Logo is required",
+      "bankDetailsRequired": "Bank account details are required",
+      "commercialRegisterRequired": "Commercial register is required",
+      "policyRequired": "You must agree to all policies"
+    },
+    "dashboardPreview": "Your Vendor Dashboard"
+  },
+  "howToSell": {
+    "breadcrumb": {
+      "home": "Home",
+      "howToSell": "How to sell"
+    },
+    "sidebar": {
+      "step1": "1- Register Your Account",
+      "step2": "2- Enter Your Personal Data",
+      "step3": "3- Verify Your Phone Number (OTP)",
+      "step4": "4- Set Up Your Store",
+      "step5": "5- Add Transaction & Business Documents",
+      "step6": "6- Review and Accept Policies",
+      "step7": "7- Access Your Store Dashboard"
+    },
+    "intro": {
+      "title": "Getting Started as a Seller",
+      "description": "Joining Qafila opens new opportunities for your business to sell, scale, and connect with trusted buyers. We've made the registration process clear and straightforward, so you can focus on building your store and growing your sales."
+    },
+    "step1": {
+      "title": "Step 1: Register Your Account",
+      "description": "Start by clicking the Register button in the hero section of the page. This will take you to the seller registration flow, where you begin setting up your Qafila store.",
+      "imageAlt": "Screenshot: Register button on the Qafila homepage"
+    },
+    "step2": {
+      "title": "Step 2: Enter Your Personal Data",
+      "point1": "1- Fill in your basic personal information so we can create your seller profile.",
+      "point2": "2- This includes your full name, email address, city, and phone number.",
+      "point3": "3- These details are used for communication and account verification only.",
+      "imageAlt": "Screenshot: Personal data registration form"
+    },
+    "step3": {
+      "title": "Step 3: Verify Your Phone Number (OTP)",
+      "point1": "1- A 6-digit verification code will be sent to your phone number.",
+      "point2": "2- Enter the code to verify your identity and secure your account.",
+      "point3": "3- This step ensures only you can access and manage your seller account.",
+      "imageAlt": "Screenshot: OTP verification screen"
+    },
+    "step4": {
+      "title": "Step 4: Set Up Your Store",
+      "point1": "1- Choose your store name, upload a logo, and write a short description.",
+      "point2": "2- This is your brand identity on Qafila — make it stand out to attract buyers.",
+      "point3": "3- You can update your store details anytime from the vendor dashboard.",
+      "imageAlt": "Screenshot: Store setup form"
+    },
+    "step5": {
+      "title": "Step 5: Add Transaction & Business Documents",
+      "point1": "1- Provide the required business and financial information to enable transactions.",
+      "point2": "2- This includes your Commercial Register or Freelance Document, along with your bank account details for payouts.",
+      "point3": "3- All information is securely stored and used only for payment processing.",
+      "imageAlt": "Screenshot: Business documents upload form"
+    },
+    "step6": {
+      "title": "Step 6: Review and Accept Policies",
+      "point1": "1- Read and agree to the following policies to proceed with your application.",
+      "point2": "2- Review Qafila's policies and terms to protect both your rights and the platform's rights.",
+      "point3": "3- Accepting these policies ensures transparency, secure transactions, and a trusted selling environment for everyone.",
+      "imageAlt": "Screenshot: Policy agreement page"
+    },
+    "step7": {
+      "title": "Step 7: Access Your Store Dashboard",
+      "point1": "1- Once your information is submitted and verified, you'll gain access to your store dashboard.",
+      "point2": "2- This is where you manage everything related to your store and start selling on Qafila.",
+      "imageAlt": "Screenshot: Vendor store dashboard overview",
+      "productsTab": {
+        "title": "a- Products Tab",
+        "point1": "1- Add, edit, and manage your products with ease.",
+        "point2": "2- Upload product details, set prices, and control availability directly from this section.",
+        "imageAlt": "Screenshot: Products management tab"
+      },
+      "ordersTab": {
+        "title": "b- Orders Tab: Manage and track all your orders in one place",
+        "point1": "1- View and manage all incoming orders from customers.",
+        "point2": "2- Track order status, process shipments, and handle returns from this section.",
+        "imageAlt": "Screenshot: Orders management tab"
+      },
+      "statisticsTab": {
+        "title": "c- Statistics Tab: Track your performance and understand the market",
+        "point1": "1- View detailed insights about your store's performance, including sales, orders, and product activity.",
+        "point2": "2- Upgrade your Qafila package to unlock advanced market insights and compare your brand with competitors.",
+        "imageAlt": "Screenshot: Analytics and statistics tab"
+      }
+    }
+  },
+  "footer": {
+    "copyright": "© 2026 Qafila. All rights reserved"
+  }
+}

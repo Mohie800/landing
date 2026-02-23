@@ -3,24 +3,54 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --primary: #E8952F;
+  --primary-dark: #D4831F;
+  --dark-bg: #1A1A1A;
+  --darker-bg: #111111;
+  --peach-bg: #FEF3E7;
+  --gray-text: #6B7280;
+  --light-border: #E5E7EB;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
+  --color-primary: var(--primary);
+  --color-primary-dark: var(--primary-dark);
+  --color-dark-bg: var(--dark-bg);
+  --color-darker-bg: var(--darker-bg);
+  --color-peach-bg: var(--peach-bg);
+  --color-gray-text: var(--gray-text);
+  --color-light-border: var(--light-border);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --font-cairo: var(--font-cairo);
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Use Cairo font for Arabic (RTL) */
+html[dir="rtl"] body {
+  font-family: var(--font-cairo), sans-serif;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* FAQ accordion */
+details summary::-webkit-details-marker {
+  display: none;
+}
+
+details summary {
+  list-style: none;
+}
+
+details[open] .faq-icon {
+  transform: rotate(45deg);
 }
