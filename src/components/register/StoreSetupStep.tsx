@@ -22,6 +22,7 @@ interface StoreSetupStepProps {
   errors: FieldErrors<FormData>;
   logo: File | null;
   onLogoChange: (file: File | null) => void;
+  isUploadingLogo?: boolean;
 }
 
 export default function StoreSetupStep({
@@ -29,6 +30,7 @@ export default function StoreSetupStep({
   errors,
   logo,
   onLogoChange,
+  isUploadingLogo,
 }: StoreSetupStepProps) {
   const t = useTranslations("register");
 
@@ -140,6 +142,7 @@ export default function StoreSetupStep({
             onChange={onLogoChange}
             error={errors.logo?.message}
             variant="image"
+            isUploading={isUploadingLogo}
           />
         </div>
       </div>

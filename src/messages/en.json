@@ -331,10 +331,15 @@
       "subtitle": "We sent a verification code to",
       "enterCode": "Enter the 6-digit code",
       "verify": "Verify",
+      "verifying": "Verifying...",
       "resend": "Resend Code",
+      "resending": "Resending...",
       "resendIn": "Resend in",
       "seconds": "s",
-      "didntReceive": "Didn't receive the code?"
+      "didntReceive": "Didn't receive the code?",
+      "invalidCode": "Invalid verification code",
+      "resendFailed": "Failed to resend code. Please try again.",
+      "requestFailed": "Failed to send verification code. Please try again."
     },
     "step2": {
       "title": "Set Up Your Store",
@@ -389,6 +394,9 @@
     "back": "Back",
     "submit": "Submit Application",
     "submitting": "Submitting...",
+    "uploading": "Uploading...",
+    "uploadFailed": "Upload failed. Please try again.",
+    "submitError": "Failed to submit application. Please try again.",
     "successTitle": "Application Submitted!",
     "successMessage": "Thank you for registering. We'll review your application and get back to you within 2-3 business days.",
     "backToHome": "Back to Home",

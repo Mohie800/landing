@@ -13,6 +13,9 @@ interface FinancialDataStepProps {
   onBankDetailsChange: (file: File | null) => void;
   onCommercialRegisterChange: (file: File | null) => void;
   onTaxCertificateChange: (file: File | null) => void;
+  isUploadingBankDetails?: boolean;
+  isUploadingCommercialRegister?: boolean;
+  isUploadingTaxCertificate?: boolean;
 }
 
 export default function FinancialDataStep({
@@ -23,6 +26,9 @@ export default function FinancialDataStep({
   onBankDetailsChange,
   onCommercialRegisterChange,
   onTaxCertificateChange,
+  isUploadingBankDetails,
+  isUploadingCommercialRegister,
+  isUploadingTaxCertificate,
 }: FinancialDataStepProps) {
   const t = useTranslations("register");
 
@@ -47,6 +53,7 @@ export default function FinancialDataStep({
             value={bankDetails}
             onChange={onBankDetailsChange}
             error={errors.bankDetails?.message}
+            isUploading={isUploadingBankDetails}
           />
         </div>
 
@@ -63,6 +70,7 @@ export default function FinancialDataStep({
             value={commercialRegister}
             onChange={onCommercialRegisterChange}
             error={errors.commercialRegister?.message}
+            isUploading={isUploadingCommercialRegister}
           />
         </div>
 
@@ -80,6 +88,7 @@ export default function FinancialDataStep({
             hint={t("step3.taxCertificateHint")}
             value={taxCertificate}
             onChange={onTaxCertificateChange}
+            isUploading={isUploadingTaxCertificate}
           />
         </div>
       </div>

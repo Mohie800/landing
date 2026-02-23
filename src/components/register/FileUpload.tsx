@@ -1,7 +1,7 @@
 "use client";
 
 import { useCallback, useRef, useState } from "react";
-import { Upload, X, FileText, ImageIcon } from "lucide-react";
+import { Upload, X, FileText, ImageIcon, Loader2 } from "lucide-react";
 import { useTranslations } from "next-intl";
 
 interface FileUploadProps {
@@ -12,6 +12,7 @@ interface FileUploadProps {
   onChange: (file: File | null) => void;
   error?: string;
   variant?: "image" | "pdf";
+  isUploading?: boolean;
 }
 
 export default function FileUpload({
@@ -22,6 +23,7 @@ export default function FileUpload({
   onChange,
   error,
   variant = "pdf",
+  isUploading = false,
 }: FileUploadProps) {
   const t = useTranslations("register");
   const inputRef = useRef<HTMLInputElement>(null);
@@ -56,7 +58,9 @@ export default function FileUpload({
   if (value) {
     return (
       <div className="flex items-center gap-3 rounded-lg border border-primary/30 bg-primary/5 px-4 py-3">
-        {variant === "image" ? (
+        {isUploading ? (
+          <Loader2 className="h-5 w-5 animate-spin text-primary" />
+        ) : variant === "image" ? (
           <ImageIcon className="h-5 w-5 text-primary" />
         ) : (
           <FileText className="h-5 w-5 text-primary" />
@@ -66,19 +70,23 @@ export default function FileUpload({
             {value.name}
           </p>
           <p className="text-xs text-gray-text">
-            {(value.size / 1024 / 1024).toFixed(2)} MB
+            {isUploading
+              ? t("uploading")
+              : `${(value.size / 1024 / 1024).toFixed(2)} MB`}
           </p>
         </div>
-        <button
-          type="button"
-          onClick={() => {
-            onChange(null);
-            if (inputRef.current) inputRef.current.value = "";
-          }}
-          className="text-gray-text transition hover:text-red-500"
-        >
-          <X className="h-4 w-4" />
-        </button>
+        {!isUploading && (
+          <button
+            type="button"
+            onClick={() => {
+              onChange(null);
+              if (inputRef.current) inputRef.current.value = "";
+            }}
+            className="text-gray-text transition hover:text-red-500"
+          >
+            <X className="h-4 w-4" />
+          </button>
+        )}
       </div>
     );
   }
