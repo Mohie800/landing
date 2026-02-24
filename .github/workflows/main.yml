@@ -23,6 +23,17 @@ jobs:
           script: |
             cd /var/www/landing
             git pull
-            pnpm i
+            export PNPM_HOME="$HOME/.local/share/pnpm"
+            export PATH="$PNPM_HOME:$PATH"
+            if ! command -v pnpm >/dev/null 2>&1; then
+              if command -v corepack >/dev/null 2>&1; then
+                corepack enable
+                corepack prepare pnpm@latest --activate
+              else
+                curl -fsSL https://get.pnpm.io/install.sh | sh -
+              fi
+              export PATH="$PNPM_HOME:$PATH"
+            fi
+            pnpm install --frozen-lockfile
             pnpm build
             pm2 restart b2b
