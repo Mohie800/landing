@@ -14,6 +14,7 @@ export interface VendorApplicationPayload {
   commercialRegister: string;
   taxCertificate?: string;
   policiesAccepted: boolean;
+  qafilaLabRequested?: boolean;
 }
 
 export const vendorApplicationApi = {

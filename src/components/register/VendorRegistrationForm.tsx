@@ -81,6 +81,9 @@ export default function VendorRegistrationForm() {
     useState(false);
   const [uploadingTaxCertificate, setUploadingTaxCertificate] = useState(false);
 
+  // Qafila Lab opt-in (Step 2)
+  const [qafilaLabRequested, setQafilaLabRequested] = useState(false);
+
   // Policy state
   const [policies, setPolicies] = useState<Record<string, boolean>>({
     productImage: false,
@@ -263,6 +266,7 @@ export default function VendorRegistrationForm() {
         commercialRegister: values.commercialRegister,
         taxCertificate: values.taxCertificate || undefined,
         policiesAccepted: true,
+        qafilaLabRequested,
       });
       setSubmitted(true);
     } catch (err: any) {
@@ -324,6 +328,8 @@ export default function VendorRegistrationForm() {
                 logo={logoFile}
                 onLogoChange={handleLogoChange}
                 isUploadingLogo={uploadingLogo}
+                qafilaLabRequested={qafilaLabRequested}
+                onQafilaLabChange={setQafilaLabRequested}
               />
             )}
 

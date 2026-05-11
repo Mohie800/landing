@@ -363,7 +363,14 @@
       "brandStory": "Brand Story",
       "brandStoryPlaceholder": "Tell us about your brand, your inspiration, and what makes your products unique (minimum 50 characters)...",
       "logo": "High-Resolution Logo",
-      "logoHint": "Upload your brand logo (PNG, JPG, SVG — max 5MB)"
+      "logoHint": "Upload your brand logo (PNG, JPG, SVG — max 5MB)",
+      "qafilaLab": {
+        "title": "Apply to Qafila Lab",
+        "description": "Our editorial program for distinctive brands. Selected vendors get a featured spot on the homepage and a dedicated brand page. Subject to admin approval.",
+        "badge": "Featured program",
+        "on": "Requested",
+        "off": "Off"
+      }
     },
     "step3": {
       "title": "Financial Information",
